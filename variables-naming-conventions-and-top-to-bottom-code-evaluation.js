@@ -24,9 +24,25 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let shopperName = "Alice";
+let totalQuantity = 5;
+let totalCost = 20;
+let mostExpensiveItem = "cake";
+let secondMostExpensiveItem = "steak";
 
-console.log(d);
+let outputMessage = shopperName 
+                    + " bought " 
+                    + totalQuantity 
+                    + " items for $" 
+                    + totalCost 
+                    + ".";
+
+console.log(outputMessage);
+
+outputMessage = "The most expensive items were "
+                + mostExpensiveItem
+                + " and "
+                + secondMostExpensiveItem
+                + ".";
+
+console.log(outputMessage);                    
